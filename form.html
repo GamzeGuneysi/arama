@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="formm.css">
+
+</head>
+<body>
+<form action="" method="">
+
+    <fieldset>
+        <legend>Kişisel bilgiler</legend>
+        <p>
+            <label for="isim">Isim:</label><input type="text" name="isim" id="isim">
+        </p>
+        <p>
+            <label for="soyisim">Soyisim:</label><input type="text" name="soyisim" id="soyisim">
+
+        </p>
+        <p>
+            <label for="email">Email:</label><input type="text" name="email" id="email">
+
+        </p>
+        <p>
+            <label for="adres">Adresiniz:</label><br/><br/>
+            <textarea name="adres" id="adres" rows="10" cols="25" placeholder="Adresiniz..."></textarea>
+        </p>
+
+        <p>
+            <label for="sehir">nerede yaşıyorsunuz</label>
+            <select name="sehir" id="sehir">
+                <option value="Ankara">Ankara</option>
+                <option value="Istanbul">Istanbul</option>
+                <option value="İzmir">İzmir</option>
+            </select>
+
+        </p>
+        <p>
+            Bildirim almak istiyor musunuz?
+            <label for="evet">Evet</label><input type="radio" name="evet" id="evet">
+            <label for="hayır">Hayır</label><input type="radio" name="evet" id="hayır">
+        </p>
+    </fieldset>
+    <br/>
+    <br/>
+    <fieldset>
+        Hobileriniz nelerdir?<br/>
+        <label for="basket">Basketbol oynamak:</label><input type="checkbox" name="hobiler" value="basket" id="basket"/>
+        <label for="voleybol">Voleybol oynamak:</label><input type="checkbox" name="hobiler" value="voleybol" id="voleybol"/>
+        <label for="resim">Resim çizmek:</label> <input type="checkbox" name="hobiler" value="resim" id="resim"/>
+    </fieldset>
+</form>
+
+</body>
+</html>
